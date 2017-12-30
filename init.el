@@ -52,7 +52,6 @@
 ;; (require 'setup-editing)
 ;;(require 'setup-company)
 
-;; (setq company-dabbrev-downcase nil)
 
 
 (require-package 'exec-path-from-shell)
@@ -133,6 +132,7 @@
 
 (require-package 'company)
 (add-hook 'after-init-hook 'global-company-mode)
+(setq company-dabbrev-downcase nil)
 
 ;; function-args
 ;; (require 'function-args)
