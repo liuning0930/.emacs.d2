@@ -1,0 +1,46 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [1 20])
+            ("iostream" include (:system-flag t) nil [21 40])
+            ("sys/socket.h" include (:system-flag t) nil [41 64])
+            ("arpa/inet.h" include (:system-flag t) nil [65 87])
+            ("MAXSIZE" variable (:constant-flag t) nil [97 104])
+            ("tcp_server" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [130 138])
+                    ("socket_fd" variable (:type "int") (reparse-symbol classsubparts) [147 172])
+                    ("accept_fd" variable (:type "int") (reparse-symbol classsubparts) [147 172])
+                    ("myserver" variable (:type ("sockaddr_in" type (:type "class") nil nil)) (reparse-symbol classsubparts) [181 202])
+                    ("remote_addr" variable (:type ("sockaddr_in" type (:type "class") nil nil)) (reparse-symbol classsubparts) [211 235])
+                    ("public" label nil (reparse-symbol classsubparts) [237 244])
+                    ("tcp_server" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("listen_port" variable (:type "int") (reparse-symbol arg-sub-list) [264 280]))                          
+                        :type ("tcp_server" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [253 281])
+                    ("recv_msg" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [290 305]))                  
+                :type "class")
+                nil [111 308]))          
+      :file "tcp_server.h"
+      :pointmax 312
+      :fsize 311
+      :lastmodtime '(23054 51678 918043 476000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAXSIZE" . ((number "1024" 105 . 109)))
+          )
+))
+  :file "!Users!minastilith!c++primer!server!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

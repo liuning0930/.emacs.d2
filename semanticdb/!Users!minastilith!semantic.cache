@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file ".v8flags.4.5.103.35.minastilith.json"
+      :pointmax 8185
+      :fsize 8184
+      :lastmodtime '(22719 62718 0 0)
+      :unmatched-syntax '((thing 1 . 8185))))
+  :file "!Users!minastilith!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

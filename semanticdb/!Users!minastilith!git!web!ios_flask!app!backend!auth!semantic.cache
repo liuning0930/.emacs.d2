@@ -1,0 +1,107 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [24 40])
+            ("ldap" include nil nil [24 40])
+            ("flask" include nil nil [41 77])
+            ("verifyLdapUser" function (:arguments 
+              ( ("user" variable nil (reparse-symbol function_parameters) [173 177]))              ) nil [154 1731]))          
+      :file "ldapAuth.py"
+      :pointmax 1732
+      :fsize 1731
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("functools" include nil nil [1 28])
+            ("flask" include nil nil [29 66])
+            ("itsdangerous" include nil nil [67 137])
+            ("itsdangerous" include nil nil [138 193])
+            ("json" include nil nil [194 205])
+            ("flask" include nil nil [207 243])
+            ("ldapAuth" include nil nil [245 280])
+            ("flask_sqlalchemy" include nil nil [282 321])
+            ("db" include nil nil [330 339])
+            ("auth" include nil nil [348 359])
+            ("TWO_WEEKS" variable nil nil [361 380])
+            ("Developer" type
+               (:superclasses ("db.Model")
+                :members 
+                  ( ("__tablename__" variable nil (reparse-symbol indented_block_body) [413 440])
+                    ("id" variable nil (reparse-symbol indented_block_body) [446 493])
+                    ("account" variable nil (reparse-symbol indented_block_body) [498 532])
+                    ("localizePermission" variable nil (reparse-symbol indented_block_body) [537 582])
+                    ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [649 661])
+                            ("self" variable nil (reparse-symbol indented_block_body) [670 692])
+                            ("self" variable nil (reparse-symbol indented_block_body) [701 745]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [601 605])
+                            ("id" variable nil (reparse-symbol function_parameters) [607 609])
+                            ("account" variable nil (reparse-symbol function_parameters) [611 618])
+                            ("localizePermission" variable nil (reparse-symbol function_parameters) [620 638]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [588 746])
+                    ("__repr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [764 768]))                          )
+                        (reparse-symbol indented_block_body) [751 799]))                  
+                :type "class")
+                nil [382 799])
+            ("User" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [873 895])
+                            ("self" variable nil (reparse-symbol indented_block_body) [904 920])
+                            ("self" variable nil (reparse-symbol indented_block_body) [929 945]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [837 841])
+                            ("account" variable nil (reparse-symbol function_parameters) [843 850])
+                            ("mail" variable nil (reparse-symbol function_parameters) [852 856])
+                            ("name" variable nil (reparse-symbol function_parameters) [858 862]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [824 946]))                  
+                :type "class")
+                nil [800 946])
+            ("" code nil nil [958 986])
+            ("login" function nil nil [987 1719])
+            ("" code nil nil [1731 1765])
+            ("verifyToken" function nil nil [1766 2138])
+            ("generate_token" function (:arguments 
+              ( ("user" variable nil (reparse-symbol function_parameters) [2158 2162])
+                ("expiration" variable nil (reparse-symbol function_parameters) [2164 2174]))              ) nil [2139 2403])
+            ("verify_token" function (:arguments 
+              ( ("token" variable nil (reparse-symbol function_parameters) [2421 2426]))              ) nil [2404 2594])
+            ("requires_auth" function (:arguments 
+              ( ("f" variable nil (reparse-symbol function_parameters) [2613 2614]))              ) nil [2595 3083]))          
+      :file "authModel.py"
+      :pointmax 3083
+      :fsize 3082
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax '((thing 346 . 347) (thing 341 . 345) (thing 328 . 329) (thing 327 . 328) (thing 322 . 326)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("flask" include nil nil [1 28])
+            ("auth" variable nil nil [30 64])
+            ("authModel" include nil nil [73 89]))          
+      :file "__init__.py"
+      :pointmax 90
+      :fsize 89
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax '((thing 66 . 70) (thing 71 . 72))))
+  :file "!Users!minastilith!git!web!ios_flask!app!backend!auth!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

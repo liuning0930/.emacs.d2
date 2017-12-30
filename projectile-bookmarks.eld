@@ -1,0 +1,1 @@
+("~/git/rn_alexaforbt/" "~/.emacs.d/" "~/" "~/git/web/ios_flask/" "~/work/projectNO1/" "~/c++primer/" "~/c++primer/tinyhttpd-0.1.0/" "~/work/alexaForBT/" "/usr/local/" "~/.emacs.d/elpa/which-key-3.0.2/" "~/.emacs.d/elpa/avy-0.4.0/" "~/.emacs.d/elpa/ivy-0.9.1/" "~/Downloads/" "~/Desktop/c-demo-project-master/" "~/.emacs.d/elpa/js2-mode-20170721/")

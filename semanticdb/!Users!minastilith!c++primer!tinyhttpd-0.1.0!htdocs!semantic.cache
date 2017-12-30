@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode html-mode
+      :tags 
+        '( ("Index" section nil nil [8 29])
+            ("Welcome to J. David's webserver.
+<H1>CGI demo
+<FORM ACTION=\"color.cgi\" METHOD=\"POST\">
+Enter a color: <INPUT TYPE=\"text\" NAME=\"color\">
+<INPUT TYPE=\"submit\">" section (:members 
+              ( ("CGI demo
+<FORM ACTION=\"color.cgi\" METHOD=\"POST\">
+Enter a color: <INPUT TYPE=\"text\" NAME=\"color\">
+<INPUT TYPE=\"submit\">" section nil nil [72 219]))              ) nil [29 219]))          
+      :file "index.html"
+      :pointmax 219
+      :fsize 218
+      :lastmodtime '(15074 955 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!minastilith!c++primer!tinyhttpd-0.1.0!htdocs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

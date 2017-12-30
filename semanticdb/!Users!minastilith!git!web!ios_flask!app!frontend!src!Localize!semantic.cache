@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "LocalizeImportView.js"
+      :pointmax 16150
+      :fsize 16149
+      :lastmodtime '(23058 12816 328850 890000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "LocalizeNewClientDialog.js"
+      :pointmax 4101
+      :fsize 4100
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "LocalizeExportExcelDialog.js"
+      :pointmax 6388
+      :fsize 6387
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "LocalizeStringView.js"
+      :pointmax 14792
+      :fsize 14791
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "LocalizeClientsView.js"
+      :pointmax 15363
+      :fsize 15362
+      :lastmodtime '(23049 20835 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!minastilith!git!web!ios_flask!app!frontend!src!Localize!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

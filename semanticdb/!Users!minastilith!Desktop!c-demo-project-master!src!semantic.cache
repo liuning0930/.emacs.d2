@@ -1,0 +1,59 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("lib2.h" include nil nil [1 18])
+            ("lib2_func" function (:type "void") nil [20 40])
+            ("lib2_func" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [56 62]))                  
+                :type "int")
+                nil [42 65]))          
+      :file "lib2.c"
+      :pointmax 66
+      :fsize 65
+      :lastmodtime '(21502 1520 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("lib1.h" include nil nil [1 18])
+            ("lib_func1" function (:type "void") nil [20 40])
+            ("lib_func2" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [56 62]))                  
+                :type "int")
+                nil [42 66])
+            ("lib_func3" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [82 88])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [89 95]))                  
+                :type "int")
+                nil [68 99]))          
+      :file "lib1.c"
+      :pointmax 100
+      :fsize 99
+      :lastmodtime '(21502 1520 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("feature1/feature1.h" include nil nil [1 31])
+            ("feature1_func1" function (:type "void") nil [33 58])
+            ("feature1_func2" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [79 85]))                  
+                :type "int")
+                nil [60 89]))          
+      :file "feature1.c"
+      :pointmax 90
+      :fsize 89
+      :lastmodtime '(23046 34931 0 0)
+      :unmatched-syntax '((symbol 33 . 40) (punctuation 32 . 33) (symbol 33 . 40) (punctuation 32 . 33))))
+  :file "!Users!minastilith!Desktop!c-demo-project-master!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

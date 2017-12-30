@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "index.ios.js"
+      :pointmax 2755
+      :fsize 2754
+      :lastmodtime '(23035 55771 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!minastilith!LearnReactNative!SectionListProject!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [1 15])
+            ("os" include nil nil [1 15])
+            ("REACTNATIVEBABELPATH" variable nil nil [17 74])
+            ("if" code nil nil [76 298]))          
+      :file "rn.py"
+      :pointmax 298
+      :fsize 297
+      :lastmodtime '(23087 31687 481355 365000)
+      :unmatched-syntax nil))
+  :file "!Users!minastilith!Desktop!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

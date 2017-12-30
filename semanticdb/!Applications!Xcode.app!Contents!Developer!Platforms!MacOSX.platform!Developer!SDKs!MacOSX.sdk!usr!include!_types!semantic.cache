@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_UINT32_T" variable (:constant-flag t) nil [1352 1361])
+            ("uint32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1362 1392]))          
+      :file "_uint32_t.h"
+      :pointmax 1416
+      :fsize 1415
+      :lastmodtime '(22921 1433 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_UINT32_T")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_UINT64_T" variable (:constant-flag t) nil [1352 1361])
+            ("uint64_t" type
+               (:typedef ("unsigned long long")
+                :type "typedef")
+                nil [1362 1398]))          
+      :file "_uint64_t.h"
+      :pointmax 1422
+      :fsize 1421
+      :lastmodtime '(22921 1433 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_UINT64_T")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!_types!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

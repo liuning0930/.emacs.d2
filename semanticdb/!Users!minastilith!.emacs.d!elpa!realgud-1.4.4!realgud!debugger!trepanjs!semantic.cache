@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("$(srcdir)/../common.mk" include nil nil [1 32])
+            ("lisp_files" variable (:default-value ("$(wildcard *.el)")) nil [33 63])
+            ("lisp_LISP" variable (:default-value ("$(lisp_files)")) nil [63 89])
+            ("EXTRA_DIST" variable (:default-value ("$(lisp_files)")) nil [89 116]))          
+      :file "Makefile.am"
+      :pointmax 116
+      :fsize 115
+      :lastmodtime '(23055 62335 743624 15000)
+      :unmatched-syntax nil))
+  :file "!Users!minastilith!.emacs.d!elpa!realgud-1.4.4!realgud!debugger!trepanjs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
