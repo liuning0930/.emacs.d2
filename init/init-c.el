@@ -4,8 +4,13 @@
   (define-key c-mode-map  [(tab)] 'company-complete)
   (define-key c++-mode-map  [(tab)] 'company-complete))
 
+;; (require-package 'autopair)
+;; (require 'autopair)
+;; (add-hook 'c-mode-hook #'(lambda () (autopair-mode)))
+;; (add-hook 'c++-mode-hook #'(lambda() (autopair-mode)))
+
 ;; When use irony in MAC OS system, you need to google for searching the method to solve the server failed error
-(require-package 'irony)
+(require-package 'irony) 
 (require 'irony)
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
@@ -34,9 +39,10 @@
 (define-key c++-mode-map [(tab)] 'company-complete)
 
 (require-package 'company-irony-c-headers)
+(require-package 'company-c-headers)
 (eval-after-load 'company
   '(add-to-list
-    'company-backends '(company-irony-c-headers company-irony)))
+    'company-backends '(company-irony-c-headers company-irony company-c-headers)))
 
 (require-package 'flycheck-irony)
 (eval-after-load 'flycheck
@@ -47,14 +53,14 @@
 (define-key yas-minor-mode-map (kbd "<tab>") nil)
 (define-key yas-minor-mode-map (kbd "TAB") nil)
 
-;; (require-package 'c-eldoc)
-;; (add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
-;; (add-hook 'c++-mode-hook 'c-turn-on-eldoc-mode)
+(require-package 'c-eldoc)
+(add-hook 'c-mode-hook 'c-turn-on-eldoc-mode)
+(add-hook 'c++-mode-hook 'c-turn-on-eldoc-mode)
 
-;; (require-package 'company-quickhelp)
-;; (company-quickhelp-mode t)
-;; (eval-after-load 'company
-;;   '(define-key company-active-map (kbd "C-c h") #'company-quickhelp-manual-begin))
+(require-package 'company-quickhelp)
+(company-quickhelp-mode t)
+(eval-after-load 'company
+  '(define-key company-active-map (kbd "C-c h") #'company-quickhelp-manual-begin))
 
 
 (provide 'init-c)

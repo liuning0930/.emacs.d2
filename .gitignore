@@ -1,5 +1,9 @@
 elpa/*
+cedet/*
 ac-comphist.dat
 projectile-bookmarks.eld
-recentf/*
+recentf
+records.dat
+semanticdb/*
 currentDir
+*.el#

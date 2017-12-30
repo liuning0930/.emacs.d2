@@ -64,6 +64,7 @@
 (require 'init-js)
 (require 'init-ivy)
 (require 'init-c)
+(require 'init-ycmd)
 
 (require-package 'helm-themes)
 (require 'helm-themes)
@@ -132,7 +133,14 @@
 
 (require-package 'company)
 (add-hook 'after-init-hook 'global-company-mode)
-(setq company-dabbrev-downcase nil)
+(setq companyabbrev-downcase nil)
+(setq company-minimum-prefix-length 2)
+(with-eval-after-load 'company 
+  (define-key company-active-map (kbd "M-n") nil)
+  (define-key company-active-map (kbd "M-p") nil)
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous)
+  )
 
 ;; function-args
 ;; (require 'function-args)

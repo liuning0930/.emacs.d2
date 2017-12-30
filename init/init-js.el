@@ -69,7 +69,9 @@
                      company-dabbrev-code
                      company-keywords
                      company-files
-                     company-yasnippet)))))
+                     company-yasnippet))))
+  (setq company-dabbrev-downcase nil)
+  )
 
 (add-hook 'rjsx-mode-hook #'setup-tide-mode)
 
